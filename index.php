@@ -72,7 +72,7 @@
                         
                         $boundary = '-----=' . md5( uniqid( microtime(), TRUE ) );
 
-                        $headers = 'From: noreply@localhost' . PHP_EOL;
+                        $headers = 'From:'. $_POST['emetteur'] . PHP_EOL;
                         $headers .= 'MIME-Version: 1.0' . PHP_EOL;
                         $headers .= 'Priority: normal' . PHP_EOL;
                         $headers .= 'Reply-To: '. $_POST['emetteur'] . PHP_EOL;
