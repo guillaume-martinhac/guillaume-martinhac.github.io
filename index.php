@@ -251,7 +251,6 @@
 				<ul>
 					<li class="lieu">7, impasse du verger d'Eole, 34670 Baillargues, France</li>
 					<li class="phone">+33 6 45 15 46 59</li>
-					<li class="mail"><a href="mailto:mon.adresse@email.fr">guillaume.martinhac@gmail.com</a></li>
 					<li class="form"><a class="toContactform">Use the contact form</a></li>
 					<!-- <li class="site"><a href="http://www.mon-site.fr/">www.mon-site.fr</a></li> -->
 <!-- 					<li class="form"><a class="toContactform">via le formulaire de contact</a></li> -->
