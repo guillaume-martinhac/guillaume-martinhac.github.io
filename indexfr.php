@@ -72,7 +72,7 @@
                         
                         $boundary = '-----=' . md5( uniqid( microtime(), TRUE ) );
 
-                        $headers = 'From: noreply@localhost' . PHP_EOL;
+                        $headers = 'From:'.$_POST['emetteur'] . PHP_EOL;
                         $headers .= 'MIME-Version: 1.0' . PHP_EOL;
                         $headers .= 'Priority: normal' . PHP_EOL;
                         $headers .= 'Reply-To: '. $_POST['emetteur'] . PHP_EOL;
@@ -257,8 +257,6 @@
 				<p>Si mon profil vous intéresse, n'hésitez pas à me contacter :</p>
 				<ul>
 					<li class="lieu">Baillargues, France</li>
-					<li class="phone">06 45 15 46 59</li>
-					<li class="mail"><a href="mailto:mon.adresse@email.fr">mon.adresse@email.fr</a></li>
 					<!-- <li class="site"><a href="http://www.mon-site.fr/">www.mon-site.fr</a></li> -->
 					<li class="form"><a class="toContactform">via le formulaire de contact</a></li>
 				</ul>
