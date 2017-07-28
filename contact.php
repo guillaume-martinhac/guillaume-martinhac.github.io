@@ -1,13 +1,13 @@
 <?php
 /*
-	********************************************************************************************
+	*************
 	CONFIGURATION
-	********************************************************************************************
+	*************
 */
-// destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
+// destinataire is your mail address. for multiple recipients, use commas to separate mails
 $destinataire = 'moi@fournisseur.tld';
  
-// copie ? (envoie une copie au visiteur)
+// copie ? (sends a copy to the writer)
 $copie = 'oui';
  
 // Action du formulaire (si votre page a des paramètres dans l'URL)
